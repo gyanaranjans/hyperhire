@@ -64,8 +64,8 @@ export const SlideshowCard = ({ slideShowData }: { slideShowData: slideCard[] })
                   isActive
                     ? 'z-20 opacity-100 scale-100'
                     : isLeft || isRight
-                    ? 'z-10 opacity-80 scale-75 lg:scale-80'
-                    : 'hidden'
+                      ? 'z-10 opacity-80 scale-75 lg:scale-80'
+                      : 'hidden'
                 } ${isLeft ? '-translate-x-[20%] lg:-translate-x-[30%] xl:-translate-x-[35%]' : ''} ${
                   isRight ? 'translate-x-[20%] lg:translate-x-[30%]  xl:translate-x-[35%]' : ''
                 }`}>
